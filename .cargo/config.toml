@@ -1,0 +1,3 @@
+[build]
+# 練習用workspaceなので, DEAD CODEや未使用の変数たちで警告は出さない
+rustflags = ["-Adead_code", "-Aunused_imports", "-Aunused_variables"]
